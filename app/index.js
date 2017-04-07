@@ -14,4 +14,3 @@ fizzBuzz: function (num) {
 	}
 }
 }
-//console.log(fizzBuzz(101));
