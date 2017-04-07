@@ -24,6 +24,10 @@ describe("Fizz Buzz tests ", function() {
     expect(fizzBuzz(90)).toBe('FizzBuzz');
   });
 
+  it("should return 'Buzz' since its divisible by 5", function() {
+    expect(fizzBuzz(100)).toBe(100);
+  });
+
   it("should return `Fizz` for 63", function() {
     expect(fizzBuzz(63)).toBe('Fizz');
   });
